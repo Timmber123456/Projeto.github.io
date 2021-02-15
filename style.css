@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Reggae One', cursive;
+    background-color: black;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.desc{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+}
+.desc p, .desc h2{
+    margin-bottom: 20px;
+}
+.img{
+    width: 250px;
+    border-radius: 20px;
+    
+}
+header{
+    position: relative;
+    background-color: aquamarine;
+    text-align: center;
+    color:snow;
+}
+.titulo{
+    font-size: 25px;
+}
+section{
+    padding:20px;
+    background-image: url(http://www.consultinghouse.com.br/wp-content/uploads/2019/02/photo-1544531586-fde5298cdd40-768x512.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.formContainer{
+    max-width: 230px;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 20px;
+    float: right;
+}
+.mb{
+    margin-bottom: 15px;
+}
+input,select,button{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+button{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 5px;
+}
